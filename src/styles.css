@@ -12,6 +12,14 @@ body {
   text-align: center;
 }
 
+.scale-effect {
+  transition: all 200ms ease-in-out;
+}
+
+.scale-effect:hover {
+  transform: scale(1.1);
+}
+
 .grid {
   display: grid;
   grid-gap: 64px;
@@ -73,7 +81,7 @@ body {
 section {
   max-width: 100%;
   margin: 0 auto;
-  padding: 90px;
+  padding: 80px;
 }
 
 section.secondary {
